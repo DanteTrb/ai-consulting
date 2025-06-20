@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-consulting/static/css/main.9f3a4153.css",
+    "main.js": "/ai-consulting/static/js/main.53b12684.js",
+    "index.html": "/ai-consulting/index.html",
+    "main.9f3a4153.css.map": "/ai-consulting/static/css/main.9f3a4153.css.map",
+    "main.53b12684.js.map": "/ai-consulting/static/js/main.53b12684.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f3a4153.css",
+    "static/js/main.53b12684.js"
+  ]
+}
