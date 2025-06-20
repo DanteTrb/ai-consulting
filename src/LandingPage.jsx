@@ -266,36 +266,28 @@ export default function LandingPage() {
     <ChevronRight className="text-white w-6 h-6" />
   </button>
 
-  {/* Loghi animati wow */}
-  <div
-    ref={scrollRef}
-    className="flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth px-4 pb-2"
-  >
-    {[
-      "/logos/inail-logo.png",
-      "/logos/fondazione-mondino-fb-1216891682.jpg",
-      "/logos/th-4113605420.jpg",
-      "/logos/th-2464091876.jpg",
-      "/logos/logo Sapienza (rgb).png",
-      "/logos/Logo_200.fw_.png",
-      "/logos/logo-policlinico-italia.png",
-    ].map((src, i) => (
-      <div
-        key={i}
-        className="group min-w-[140px] transition-transform duration-500 ease-in-out hover:scale-105"
-      >
-        <div className="bg-gradient-to-br from-purple-500 via-blue-500 to-purple-500 p-[2px] rounded-xl">
-          <div className="bg-white rounded-xl p-3 flex items-center justify-center group-hover:drop-shadow-[0_0_15px_rgba(99,102,241,0.6)] transition-all duration-500 ease-in-out">
-            <img
-              src={src}
-              alt={`Logo ${i}`}
-              className="h-20 w-auto object-contain transition-transform duration-500 ease-in-out group-hover:scale-105"
-            />
-          </div>
-        </div>
-      </div>
-    ))}
-  </div>
+ {/* Loghi animati wow */}
+<div
+  ref={scrollRef}
+  className="flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth px-4 pb-2"
+>
+  {[
+    "/logos/inail-logo.png",
+    "/logos/fondazione-mondino-fb-1216891682.jpg",
+    "/logos/th-4113605420.jpg",
+    "/logos/th-2464091876.jpg",
+    "/logos/logo Sapienza (rgb).png",
+    "/logos/Logo_200.fw_.png",
+    "/logos/logo-policlinico-italia.png"
+  ].map((src, i) => (
+    <img
+      key={i}
+      src={process.env.PUBLIC_URL + src}
+      alt={`Logo ${i}`}
+      className="h-20 w-auto object-contain grayscale hover:grayscale-0 transition duration-300"
+    />
+  ))}
+</div>
 </section>
 
 {/* FINAL CALL-TO-ACTION */}
