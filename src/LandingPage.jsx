@@ -271,22 +271,22 @@ export default function LandingPage() {
   ref={scrollRef}
   className="flex gap-8 overflow-x-auto scrollbar-hide scroll-smooth px-4 pb-2"
 >
-  {[
-    "/logos/inail-logo.png",
-    "/logos/fondazione-mondino-fb-1216891682.jpg",
-    "/logos/th-4113605420.jpg",
-    "/logos/th-2464091876.jpg",
-    "/logos/logo Sapienza (rgb).png",
-    "/logos/Logo_200.fw_.png",
-    "/logos/logo-policlinico-italia.png"
-  ].map((src, i) => (
-    <img
-      key={i}
-      src={process.env.PUBLIC_URL + src}
-      alt={`Logo ${i}`}
-      className="h-20 w-auto object-contain grayscale hover:grayscale-0 transition duration-300"
-    />
-  ))}
+{[
+  "inail-logo.png",
+  "fondazione-mondino-fb-1216891682.jpg",
+  "th-4113605420.jpg",
+  "th-2464091876.jpg",
+  "logo-sapienza.png",
+  "logo-200.png",
+  "logo-policlinico-italia.png"
+].map((filename, i) => (
+  <img
+    key={i}
+    src={`${process.env.PUBLIC_URL}/logos/${filename}`}
+    alt={`Logo ${i}`}
+    className="h-20 w-auto object-contain grayscale hover:grayscale-0 transition duration-300"
+  />
+))}
 </div>
 </section>
 
