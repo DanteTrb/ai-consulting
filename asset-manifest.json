@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ai-consulting/static/css/main.e0b93c73.css",
-    "main.js": "/ai-consulting/static/js/main.baa172d8.js",
+    "main.js": "/ai-consulting/static/js/main.bdba7096.js",
     "index.html": "/ai-consulting/index.html",
     "main.e0b93c73.css.map": "/ai-consulting/static/css/main.e0b93c73.css.map",
-    "main.baa172d8.js.map": "/ai-consulting/static/js/main.baa172d8.js.map"
+    "main.bdba7096.js.map": "/ai-consulting/static/js/main.bdba7096.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b93c73.css",
-    "static/js/main.baa172d8.js"
+    "static/js/main.bdba7096.js"
   ]
 }
