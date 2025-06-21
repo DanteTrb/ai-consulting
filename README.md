@@ -1,68 +1,85 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧠 AI Consulting Portfolio · Dante Trabassi
 
-## Available Scripts
+[![Live Demo](https://img.shields.io/badge/Live-Demo-24292e?style=for-the-badge&logo=github)](https://dantetrb.github.io/ai-consulting/)
+[![React](https://img.shields.io/badge/Built%20with-React-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-38b2ac?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-000000?style=for-the-badge&logo=github)](https://pages.github.com/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 👨‍💻 Overview
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Welcome to the official portfolio of **Dante Trabassi**, Biomedical Engineer, PhD candidate, and AI Research Fellow at Sapienza University of Rome.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This website showcases my most impactful projects at the intersection of:
 
-### `npm test`
+- 🧬 Artificial Intelligence in Healthcare
+- 🦿 Biomechanics & Movement Analysis
+- 💡 Explainable Machine Learning & Generative Models
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> ⚡ Designed with performance and simplicity in mind.  
+> 🛠️ Built from scratch using modern web technologies.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 Live Site
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+👉 [https://dantetrb.github.io/ai-consulting/](https://dantetrb.github.io/ai-consulting/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+  <img src="./public/tpose.png" width="600" alt="Site Preview">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Tech Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **React** – CRA (Create React App)
+- **Tailwind CSS** – for modern utility-first styling
+- **Framer Motion** – for smooth transitions
+- **Lucide Icons** – crisp, clean icons
+- **tsParticles** – interactive particle background
+- **GitHub Pages** – production deployment
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🗂️ Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📁 public/
+├─ logos/ # Partner logos
+├─ tpose.png # Preview image
+└─ index.html # HTML template
 
-### Code Splitting
+📁 src/
+├─ components/ # Reusable UI components
+├─ data/ # Logo and project data
+└─ App.jsx # Main App component
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+---
 
-### Analyzing the Bundle Size
+## 🧪 Local Development
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# 1. Install dependencies
+npm install
 
-### Making a Progressive Web App
+# 2. Start local server
+npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Build optimized production bundle
+npm run build
 
-### Advanced Configuration
+# Deploy to GitHub Pages
+npm run deploy
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+"homepage": "https://dantetrb.github.io/ai-consulting"
 
-### Deployment
+## 📬 Contact
+✉️ Email: dantetrb@gmail.com
+GitHub: @DanteTrb
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 📘 License
+MIT © Dante Trabassi
