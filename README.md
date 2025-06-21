@@ -31,7 +31,7 @@ This website showcases my most impactful projects at the intersection of:
 ## ✨ Preview
 
 <p align="center">
-  <img src="./public/tpose.png" width="600" alt="Site Preview">
+  <img src="./public/preview.png" width="600" alt="Site Preview">
 </p>
 
 ---
