@@ -47,7 +47,7 @@ export default function LandingPage() {
       <nav className="w-full fixed top-0 left-0 z-50 bg-black/80 backdrop-blur border-b border-gray-800 shadow-md overflow-visible">
         <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center text-white relative overflow-visible">
           <div className="relative flex items-center group z-50">
-            <img src="/icon.svg" alt="Logo" className="h-20 w-20" />
+          <img src={`${process.env.PUBLIC_URL}/icon.svg`} alt="Logo" className="h-20 w-20" />
             <div className="ml-3 opacity-0 group-hover:opacity-100 translate-x-0 group-hover:translate-x-1 transition-all duration-300 bg-white text-black font-medium px-4 py-2 rounded-lg border border-purple-400 shadow-xl z-50 whitespace-nowrap">
               Dante Trabassi · AI for Neurorehab
             </div>
@@ -294,7 +294,7 @@ export default function LandingPage() {
 <section className="relative h-[400px] bg-black overflow-hidden flex items-center justify-center">
   {/* Figura T-pose animata */}
   <motion.img
-  src="/tpose.png"
+  src={`${process.env.PUBLIC_URL}/tpose.png`}
   alt="T-pose figure"
   animate={{
     x: [0, 100, 0],
