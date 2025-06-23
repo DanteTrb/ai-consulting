@@ -79,7 +79,7 @@ npm run deploy
 
 ## 📬 Contact
 ✉️ Email: dantetrb@gmail.com
-
+Linkedin: Dante Trabassi
 GitHub: @DanteTrb
 
 ## 📘 License
