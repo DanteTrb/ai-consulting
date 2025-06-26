@@ -78,7 +78,7 @@ npm run deploy
 "homepage": "https://dantetrb.github.io/ai-consulting"
 
 ## 📬 Contact
-✉️ Email: dantetrb@gmail.com
+✉️ Email: dantetrb@gmail.com & dante.trabassi@uniroma1.it
 Linkedin: Dante Trabassi
 GitHub: @DanteTrb
 
