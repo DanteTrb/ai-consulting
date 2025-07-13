@@ -14,7 +14,7 @@ Welcome to the official portfolio of **Dante Trabassi**, Data Scientist | Biomed
 This website showcases my main projects at the intersection of:
 
 - 🧬 Artificial Intelligence in Healthcare
-- 🦿 Biomechanics & Movement Analysis
+- 🦿 Biomechanics & Movement Analysis & Neuroscience
 - 💡 Explainable Machine Learning, Deep Learning & Generative Models
 
 > ⚡ Designed with performance and simplicity in mind.  
