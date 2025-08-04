@@ -9,7 +9,7 @@
 
 ## 👨‍💻 Overview
 
-Welcome to the official portfolio of **Dante Trabassi**, Data Scientist | Biomedical Engineer, PhD candidate, and AI Research Fellow at Sapienza University of Rome.
+Welcome to the official portfolio of **Dante Trabassi**, Data Scientist | Biomedical Engineer, PhD candidate, AI Research Fellow at Sapienza University of Rome.
 
 This website showcases my main projects at the intersection of:
 
